@@ -25,7 +25,11 @@ The data comes from 90,189 players who installed the game during the A/B test. T
 - Players were randomly assigned to either gate_30 or gate_40 when they installed the game.
 
 ## A/B Testing Evaluate
+Metric Game_rounds : Mann-Whitney
 
+Metric %Retention_1 : Chi-Square
+
+Metric %Retention_7 : Chi-Square
 
 ## Conclusion
 **Business Problem Recap:**
