@@ -94,7 +94,10 @@ The mean and median birth weights of firstborn children are lower compared to th
 
 Firstborn children are lighter than later-born children, but the difference is small.
 
-![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true)
+<p align="center">
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true" alt="Description of image" width="50%" />
+</p>
+
 
 #### Inference Statistic
 
@@ -102,7 +105,10 @@ Firstborn children are lighter than later-born children, but the difference is s
 
 It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
 
-![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true)
+<p align="center">
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true" alt="Description of image" width="50%" />
+</p>
+
 
 #### 2. Regression
 
@@ -127,7 +133,9 @@ Findings:
 Conclusion:
       + There is a measurable difference in birth weight between first-born and later-born children (first-borns tend to weigh less). However, the variable isfirst accounts for only a very small portion of the variation in birth weight. This implies that while the effect exists, its practical impact is minimal, and many other factors contribute to birth weight that are not included in the model.
 
-![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true)
+<p align="center">
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true" alt="Description of image" width="70%" />
+</p>
 
 
 ### II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
