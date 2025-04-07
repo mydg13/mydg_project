@@ -149,6 +149,8 @@ The probability mass function (PMF) of firstborn children (blue) tends to be mor
 </p>
 
 
+Zoom in on the difference
+
 ![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image10.png?raw=true)
 
 Explanation
