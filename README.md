@@ -1,44 +1,49 @@
-## Project Description
+## Project Overview
 
-This project uses data from the 2002 National Survey of Family Growth (NSFG) to study pregnancy and childbirth. The dataset includes only pregnancies that ended in live births and is split into two groups:
+This project uses data from the 2002 National Survey of Family Growth (NSFG) to analyze pregnancy and childbirth. The dataset focuses on pregnancies that resulted in live births and is divided into two groups:
 
-firsts: First-born children (the mother’s first live birth)
+- **Firstborns**: The mother's first live birth.
+- **Subsequent births**: Any live birth after the first.
 
-others: Later-born children (not the first)
+Each row in the dataset represents one pregnancy, with details such as the mother's age, birth weight, and pregnancy duration. The analysis compares first-time and experienced mothers, highlighting patterns and differences.
 
-Each row represents one pregnancy and includes details like the mother's age, birth weight, and pregnancy length. This setup helps compare first-time vs. experienced mothers to find patterns and differences.
+---
 
+## Dataset Columns Overview
 
-##  Description of Columns
-
-The dataset contains several columns that provide detailed information about each pregnancy and the corresponding birth outcome. 
-Here is a brief description of each column:
+The dataset contains the following columns, each providing essential details about each pregnancy:
 
 | **Column**      | **Description**                                                                 | **Type**   | **Example**         |
 |-----------------|---------------------------------------------------------------------------------|------------|---------------------|
-| `caseid`        | Unique identifier for each survey participant                                    | Integer    | 100001, 100002      |
-| `pregordr`      | Order of the pregnancy (1 = first, 2 = second, etc.)                             | Integer    | 1, 2, 3             |
+| `caseid`        | Unique identifier for each participant                                           | Integer    | 100001, 100002      |
+| `pregordr`      | Pregnancy order (1 = first, 2 = second, etc.)                                    | Integer    | 1, 2, 3             |
 | `outcome`       | Outcome of pregnancy (1 = live birth, 2 = stillbirth, 3 = miscarriage, 4 = other) | Integer    | 1, 2, 3             |
 | `birthord`      | Birth order of the child (1 = first-born, 2 = second-born, etc.)                 | Integer    | 1, 2, 3             |
-| `agepreg`       | Age of the mother at the time of pregnancy (in years)                            | Float      | 24.5, 30.2          |
-| `birthwgt_lb`   | Birth weight of the baby in pounds                                               | Float      | 7.5, 6.8            |
-| `birthwgt_oz`   | Birth weight of the baby in ounces (16 oz = 1 lb)                               | Integer    | 8, 12               |
-| `finalwgt`      | Final weight variable used for survey weighting                                  | Float      | 0.75, 1.2           |
-| `prglngth`      | Length of the pregnancy in weeks                                                 | Integer    | 40, 37, 42          |
-| `numdep`        | Number of dependent children the mother has at the time of the survey           | Integer    | 1, 3                |
+| `agepreg`       | Mother's age at pregnancy (in years)                                             | Float      | 24.5, 30.2          |
+| `birthwgt_lb`   | Baby's birth weight in pounds                                                    | Float      | 7.5, 6.8            |
+| `birthwgt_oz`   | Baby's birth weight in ounces (16 oz = 1 lb)                                     | Integer    | 8, 12               |
+| `finalwgt`      | Weight variable used for survey weighting                                         | Float      | 0.75, 1.2           |
+| `prglngth`      | Pregnancy duration in weeks                                                      | Integer    | 40, 37, 42          |
+| `numdep`        | Number of dependent children the mother has at the time of the survey            | Integer    | 1, 3                |
 
+---
 
-## Outline Analysis 
+## Analytical Approach
 
-I. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
+### I. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
 
-      Descriptive Statistics : PMF / CDF, Statistical measures, Cohen's Effect Size
-      
-      Inference Statistic : Hypothesis Testing, Regression, Confidence Interval
+1. **Descriptive Statistics**:
+   - **PMF / CDF**: Probability Mass Function (PMF) and Cumulative Distribution Function (CDF) analysis.
+   - **Cohen's Effect Size**: Measure the effect size between firstborn and non-firstborn children.
 
-II. Comparison of Pregnancy Duration Between First and Subsequent Births   
+2. **Inference Statistics**:
+   - **Hypothesis Testing**: Test for statistically significant differences in birth weight.
+   - **Regression**: Analyze the relationship between birth order and birth weight.
+   - **Confidence Interval**: Estimate the range of the birth weight difference.
 
-      Using PMF
+### II. Comparison of Pregnancy Duration Between First and Subsequent Births
+
+Using **PMF** to analyze the pregnancy length distribution for both groups.
 
 
 ## Analysis
