@@ -116,23 +116,23 @@ It has been observed that first-born children tend to weigh less than their late
 
 Input:
 
-      + Independent variable: isfirst (a dummy variable indicating whether the child is first-born)
+- Independent variable: isfirst (a dummy variable indicating whether the child is first-born)
 
-      + Dependent variable (target for prediction): totalwgt_lb (birth weight in pounds)
+- Dependent variable (target for prediction): totalwgt_lb (birth weight in pounds)
 
-      + This model compares the average birth weight of first-born children with that of non-first-born children.
+- This model compares the average birth weight of first-born children with that of non-first-born children.
 
 Findings:
 
-      + Coefficient of isfirst[T.True] (-0.1248): First-born children (isfirst=True) weigh on average 0.1248 pounds less than non-first-born children.
+- Coefficient of isfirst[T.True] (-0.1248): First-born children (isfirst=True) weigh on average 0.1248 pounds less than non-first-born children.
 
-      + R-squared (0.002): The model explains about 0.2% of the variation in birth weight based on whether the child is first-born.→ Being first-born is just one of many factors that influence birth weight; many other important variables are not captured in this model.
+- R-squared (0.002): The model explains about 0.2% of the variation in birth weight based on whether the child is first-born.→ Being first-born is just one of many factors that influence birth weight; many other important variables are not captured in this model.
 
-      + P-value for isfirst[T.True] (0.000):The result is highly statistically significant, suggesting that the difference in weight between first-born and non-first-born children is unlikely to be due to random chance and may be driven by an underlying factor.
+- P-value for isfirst[T.True] (0.000):The result is highly statistically significant, suggesting that the difference in weight between first-born and non-first-born children is unlikely to be due to random chance and may be driven by an underlying factor.
 
 Conclusion:
 
-      + There is a measurable difference in birth weight between first-born and later-born children (first-borns tend to weigh less). However, the variable isfirst accounts for only a very small portion of the variation in birth weight. This implies that while the effect exists, its practical impact is minimal, and many other factors contribute to birth weight that are not included in the model.
+- There is a measurable difference in birth weight between first-born and later-born children (first-borns tend to weigh less). However, the variable isfirst accounts for only a very small portion of the variation in birth weight. This implies that while the effect exists, its practical impact is minimal, and many other factors contribute to birth weight that are not included in the model.
 
 <p align="center">
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true" alt="Description of image" width="70%" />
@@ -155,23 +155,23 @@ Zoom in on the difference
 
 Explanation
 
-X-axis: Represents the number of pregnancy weeks, ranging from 30 to 46 weeks.
+- X-axis: Represents the number of pregnancy weeks, ranging from 30 to 46 weeks.
 
-Y-axis: Represents the probability difference (measured in percentage points) between first pregnancies and subsequent pregnancies.
+- Y-axis: Represents the probability difference (measured in percentage points) between first pregnancies and subsequent pregnancies.
 
-Positive values: Indicate that the probability is higher for first pregnancies.
+- Positive values: Indicate that the probability is higher for first pregnancies.
 
-Negative values: Indicate that the probability is higher for subsequent pregnancies.
+- Negative values: Indicate that the probability is higher for subsequent pregnancies.
 
 Observations :
 
-From 30 to 37 weeks: The probability difference is relatively small, fluctuating around zero, indicating that the likelihood of first and subsequent pregnancies occurring within this range is nearly the same.
+- From 30 to 37 weeks: The probability difference is relatively small, fluctuating around zero, indicating that the likelihood of first and subsequent pregnancies occurring within this range is nearly the same.
 
-At 38 weeks: The difference is negative and at its largest, showing that subsequent pregnancies are significantly more likely to occur at this week compared to first pregnancies.
+- At 38 weeks: The difference is negative and at its largest, showing that subsequent pregnancies are significantly more likely to occur at this week compared to first pregnancies.
 
-At 39 and 40 weeks: The difference remains negative but is smaller than at 38 weeks.
+- At 39 and 40 weeks: The difference remains negative but is smaller than at 38 weeks.
 
-From 41 to 43 weeks: The difference is positive, indicating that first pregnancies are more likely to extend into this range than subsequent pregnancies.
+- From 41 to 43 weeks: The difference is positive, indicating that first pregnancies are more likely to extend into this range than subsequent pregnancies.
 
 From 44 to 46 weeks: The difference is close to zero, suggesting that the probability of first and subsequent pregnancies occurring in this period is nearly equal.
 
