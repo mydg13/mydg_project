@@ -67,14 +67,15 @@ There are multiple sharp peaks and dips, along with some noticeable differences 
 
 2.CDF
 
-**Key Findings:**
+![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image3.png?raw=true)
 
-- The Mann-Whitney U test showed no difference in game rounds between gate_30 and gate_40.
-- The Chi-Square test found no difference in 1-day retention, but 7-day retention for gate_40 was lower (14.92%) compared to gate_30 (15.76%).
+Since the line for firstborn children is to the left of the line for later-born children, firstborns tend to be slightly lighter.
 
-**Conclusion:**
+The noticeable gap in the middle suggests that the difference is more pronounced above the mean value.
 
-The gate change didn’t impact game rounds or 1-day retention, but 7-day retention decreased. Therefore, we recommend keeping the old version (gate_30). Other factors, like game experience and rewards, should also be considered.
+3. Statistical measures
 
+The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
+![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true)
 
