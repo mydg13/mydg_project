@@ -50,9 +50,8 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
 
 
 **II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children :**
-1. Descriptive Statistics
-
-      1.1 PMF
+**Descriptive Statistics**
+1. PMF
 
 ![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image2.png?raw=true)
 
@@ -66,7 +65,7 @@ There are multiple sharp peaks and dips, along with some noticeable differences 
 
 ➡️ Use the CDF for better insight.
 
-
+2.CDF
 
 **Key Findings:**
 
