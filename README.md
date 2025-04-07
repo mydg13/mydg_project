@@ -84,7 +84,7 @@ The noticeable gap in the middle suggests that the difference is more pronounced
 The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
 <p align="center">
-  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true" alt="Description of image" width="50%" />
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
 ##### 1.4 Cohen's Effect Size
@@ -92,7 +92,7 @@ The mean and median birth weights of firstborn children are lower compared to th
 Firstborn children are lighter than later-born children, but the difference is small.
 
 <p align="center">
-  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true" alt="Description of image" width="50%" />
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
 #### 2. Inference Statistic
@@ -102,7 +102,7 @@ Firstborn children are lighter than later-born children, but the difference is s
 It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
 
 <p align="center">
-  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true" alt="Description of image" width="50%" />
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
 ##### 2.2 Regression
