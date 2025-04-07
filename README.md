@@ -179,9 +179,9 @@ Observations :
 
 - From 41 to 43 weeks: The difference is positive, indicating that first pregnancies are more likely to extend into this range than subsequent pregnancies.
 
-From 44 to 46 weeks: The difference is close to zero, suggesting that the probability of first and subsequent pregnancies occurring in this period is nearly equal.
+- From 44 to 46 weeks: The difference is close to zero, suggesting that the probability of first and subsequent pregnancies occurring in this period is nearly equal.
 
-=> The chart reveals a clear distinction in pregnancy duration between first and subsequent pregnancies.
+   => The chart reveals a clear distinction in pregnancy duration between first and subsequent pregnancies.
 
-=> First pregnancies tend to last longer (notably between 41-43 weeks), whereas subsequent pregnancies tend to conclude earlier (especially at 38 weeks).
+   => First pregnancies tend to last longer (notably between 41-43 weeks), whereas subsequent pregnancies tend to conclude earlier (especially at 38 weeks).
 
