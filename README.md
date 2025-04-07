@@ -45,10 +45,11 @@ The dataset contains the following columns, each providing essential details abo
 
 Using **PMF** to analyze the pregnancy length distribution for both groups.
 
+---
 
 ## Analysis
 
-**I.Input Data :**
+### I. Input Data
 
 ![NSFG Pregnancy Data](https://github.com/mydg13/mydg_project/blob/main/image/image1.png?raw=true)
 
