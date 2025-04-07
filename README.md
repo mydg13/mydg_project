@@ -2,11 +2,14 @@
 
 ## Summary
 
-Cookie Cats is a popular mobile puzzle game where players match tiles to clear levels.
+This project uses data from the 2002 National Survey of Family Growth (NSFG) to study pregnancy and childbirth. The dataset includes only pregnancies that ended in live births and is split into two groups:
 
-As players progress, they sometimes hit gates that require them to wait or make a purchase to continue. These gates are meant to encourage breaks and increase enjoyment.
+firsts: First-born children (the mother’s first live birth)
 
-The first gate was originally at level 30, but in this test, we moved it to level 40. We’ll now look at how this change affects all metrics. Let’s check it out!
+others: Later-born children (not the first)
+
+Each row represents one pregnancy and includes details like the mother's age, birth weight, and pregnancy length. This setup helps compare first-time vs. experienced mothers to find patterns and differences.
+
 
 ## Data Description:
 
