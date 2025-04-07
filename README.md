@@ -59,11 +59,11 @@ These distributions all resemble a "bell shape," with many values clustering aro
 
 There are multiple sharp peaks and dips, along with some noticeable differences between the distributions.
 
-➡️ It’s hard to determine which of these features are meaningful.
+→ It’s hard to determine which of these features are meaningful.
 
-➡️ It’s also difficult to discern overall characteristics; for example, which distribution do you think has the higher mean?
+→ It’s also difficult to discern overall characteristics; for example, which distribution do you think has the higher mean?
 
-➡️ Use the CDF for better insight.
+→ Use the CDF for better insight.
 
 2.CDF
 
