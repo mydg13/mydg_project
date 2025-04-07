@@ -53,8 +53,6 @@ Using **PMF** to analyze the pregnancy length distribution for both groups.
 
 ![NSFG Pregnancy Data](https://github.com/mydg13/mydg_project/blob/main/image/image1.png?raw=true)
 
-
-
 ### II. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children:
 
 #### 1. Descriptive Statistics
@@ -89,7 +87,6 @@ The mean and median birth weights of firstborn children are lower compared to th
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true" alt="Description of image" width="50%" />
 </p>
 
-
 ##### 1.4 Cohen's Effect Size
 
 Firstborn children are lighter than later-born children, but the difference is small.
@@ -98,10 +95,9 @@ Firstborn children are lighter than later-born children, but the difference is s
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true" alt="Description of image" width="50%" />
 </p>
 
+#### 2. Inference Statistic
 
-#### 2.Inference Statistic
-
-#### 2.1 Hypothesis Testing
+##### 2.1 Hypothesis Testing
 
 It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
 
@@ -109,26 +105,22 @@ It can be observed that the average birth weight of the newborns is slightly low
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true" alt="Description of image" width="50%" />
 </p>
 
-
-#### 2.2 Regression
+##### 2.2 Regression
 
 It has been observed that first-born children tend to weigh less than their later-born siblings, and this effect is statistically significant. However, this result is somewhat surprising, as there is no obvious biological mechanism that would necessarily cause first-borns to be lighter. This raises the question of whether the observed relationship might be spurious.
 
 Input:
 
 - Independent variable: isfirst (a dummy variable indicating whether the child is first-born)
-
 - Dependent variable (target for prediction): totalwgt_lb (birth weight in pounds)
 
-- This model compares the average birth weight of first-born children with that of non-first-born children.
+This model compares the average birth weight of first-born children with that of non-first-born children.
 
 Findings:
 
 - Coefficient of isfirst[T.True] (-0.1248): First-born children (isfirst=True) weigh on average 0.1248 pounds less than non-first-born children.
-
 - R-squared (0.002): The model explains about 0.2% of the variation in birth weight based on whether the child is first-born.→ Being first-born is just one of many factors that influence birth weight; many other important variables are not captured in this model.
-
-- P-value for isfirst[T.True] (0.000):The result is highly statistically significant, suggesting that the difference in weight between first-born and non-first-born children is unlikely to be due to random chance and may be driven by an underlying factor.
+- P-value for isfirst[T.True] (0.000): The result is highly statistically significant, suggesting that the difference in weight between first-born and non-first-born children is unlikely to be due to random chance and may be driven by an underlying factor.
 
 Conclusion:
 
@@ -138,14 +130,13 @@ Conclusion:
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
-#### 2.3 Confidence Interval
+##### 2.3 Confidence Interval
 
 <p align="center">
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image11.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
-
-### II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
+### II. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
 
 The probability mass function (PMF) of firstborn children (blue) tends to be more right-skewed compared to the PMF of later-born children (red).
 
@@ -154,7 +145,6 @@ The probability mass function (PMF) of firstborn children (blue) tends to be mor
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image9.png?raw=true" alt="Chart 2" width="45%" />
 </p>
 
-
 Zoom in on the difference
 
 ![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image10.png?raw=true)
@@ -162,26 +152,18 @@ Zoom in on the difference
 Explanation
 
 - X-axis: Represents the number of pregnancy weeks, ranging from 30 to 46 weeks.
-
 - Y-axis: Represents the probability difference (measured in percentage points) between first pregnancies and subsequent pregnancies.
-
 - Positive values: Indicate that the probability is higher for first pregnancies.
-
 - Negative values: Indicate that the probability is higher for subsequent pregnancies.
 
 Observations :
 
 - From 30 to 37 weeks: The probability difference is relatively small, fluctuating around zero, indicating that the likelihood of first and subsequent pregnancies occurring within this range is nearly the same.
-
 - At 38 weeks: The difference is negative and at its largest, showing that subsequent pregnancies are significantly more likely to occur at this week compared to first pregnancies.
-
 - At 39 and 40 weeks: The difference remains negative but is smaller than at 38 weeks.
-
 - From 41 to 43 weeks: The difference is positive, indicating that first pregnancies are more likely to extend into this range than subsequent pregnancies.
-
 - From 44 to 46 weeks: The difference is close to zero, suggesting that the probability of first and subsequent pregnancies occurring in this period is nearly equal.
 
-   => The chart reveals a clear distinction in pregnancy duration between first and subsequent pregnancies.
+=> The chart reveals a clear distinction in pregnancy duration between first and subsequent pregnancies.
 
-   => First pregnancies tend to last longer (notably between 41-43 weeks), whereas subsequent pregnancies tend to conclude earlier (especially at 38 weeks).
-
+=> First pregnancies tend to last longer (notably between 41-43 weeks), whereas subsequent pregnancies tend to conclude earlier (especially at 
