@@ -41,8 +41,13 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
       Using PMF
 
 
-## Conclusion
-**Business Problem Recap:**
+## Analysis
+
+**I.Input Data :**
+
+
+
+**I.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children :**
 
 In Cookie Cats, players face gates that make them wait before progressing or making an in-app purchase. We analyzed an A/B test where the first gate was moved from level 30 to level 40, focusing on player retention and game rounds.
 
