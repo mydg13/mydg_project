@@ -31,11 +31,14 @@ Here is a brief description of each column:
 ## Outline Analysis 
 
 I. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
+
       Descriptive Statistics : PMF / CDF, Statistical measures, Cohen's Effect Size
+      
       Inference Statistic : Hypothesis Testing, Regression, Confidence Interval
 
 II. Comparison of Pregnancy Duration Between First and Subsequent Births   
-       Using PMF
+
+      Using PMF
 
 
 ## Conclusion
