@@ -54,6 +54,8 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
 
 1.1 PMF
 
+![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image2.png?raw=true)
+
 These distributions all resemble a "bell shape," with many values clustering around the mean and fewer extreme values.
 
 There are multiple sharp peaks and dips, along with some noticeable differences between the distributions.
