@@ -85,7 +85,10 @@ The noticeable gap in the middle suggests that the difference is more pronounced
 
 The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
-![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true)
+<p align="center">
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true" alt="Description of image" width="50%" />
+</p>
+
 
 ##### 4. Cohen's Effect Size
 
