@@ -57,9 +57,9 @@ Using **PMF** to analyze the pregnancy length distribution for both groups.
 
 ### II. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children:
 
-#### Descriptive Statistics
+#### 1. Descriptive Statistics
 
-##### 1. PMF
+##### 1.1 PMF
 
 ![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image2.png?raw=true)
 
@@ -73,7 +73,7 @@ There are multiple sharp peaks and dips, along with some noticeable differences 
 
 → Use the CDF for better insight.
 
-##### 2. CDF
+##### 1.2 CDF
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image3.png?raw=true)
 
@@ -81,7 +81,7 @@ Since the line for firstborn children is to the left of the line for later-born 
 
 The noticeable gap in the middle suggests that the difference is more pronounced above the mean value.
 
-##### 3. Statistical measures
+##### 1.3 Statistical measures
 
 The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
@@ -90,7 +90,7 @@ The mean and median birth weights of firstborn children are lower compared to th
 </p>
 
 
-##### 4. Cohen's Effect Size
+##### 1.4 Cohen's Effect Size
 
 Firstborn children are lighter than later-born children, but the difference is small.
 
@@ -99,9 +99,9 @@ Firstborn children are lighter than later-born children, but the difference is s
 </p>
 
 
-#### Inference Statistic
+#### 2.Inference Statistic
 
-#### 1. Hypothesis Testing
+#### 2.1 Hypothesis Testing
 
 It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
 
@@ -110,7 +110,7 @@ It can be observed that the average birth weight of the newborns is slightly low
 </p>
 
 
-#### 2. Regression
+#### 2.2 Regression
 
 It has been observed that first-born children tend to weigh less than their later-born siblings, and this effect is statistically significant. However, this result is somewhat surprising, as there is no obvious biological mechanism that would necessarily cause first-borns to be lighter. This raises the question of whether the observed relationship might be spurious.
 
@@ -136,6 +136,12 @@ Conclusion:
 
 <p align="center">
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true" alt="Description of image" width="70%" />
+</p>
+
+#### 2.3 Confidence Interval
+
+<p align="center">
+  <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image11.png?raw=true" alt="Description of image" width="70%" />
 </p>
 
 
