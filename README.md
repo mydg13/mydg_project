@@ -149,3 +149,31 @@ The probability mass function (PMF) of firstborn children (blue) tends to be mor
 </p>
 
 
+![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image10.png?raw=true)
+
+Explanation
+
+X-axis: Represents the number of pregnancy weeks, ranging from 30 to 46 weeks.
+
+Y-axis: Represents the probability difference (measured in percentage points) between first pregnancies and subsequent pregnancies.
+
+Positive values: Indicate that the probability is higher for first pregnancies.
+
+Negative values: Indicate that the probability is higher for subsequent pregnancies.
+
+Observations :
+
+From 30 to 37 weeks: The probability difference is relatively small, fluctuating around zero, indicating that the likelihood of first and subsequent pregnancies occurring within this range is nearly the same.
+
+At 38 weeks: The difference is negative and at its largest, showing that subsequent pregnancies are significantly more likely to occur at this week compared to first pregnancies.
+
+At 39 and 40 weeks: The difference remains negative but is smaller than at 38 weeks.
+
+From 41 to 43 weeks: The difference is positive, indicating that first pregnancies are more likely to extend into this range than subsequent pregnancies.
+
+From 44 to 46 weeks: The difference is close to zero, suggesting that the probability of first and subsequent pregnancies occurring in this period is nearly equal.
+
+=> The chart reveals a clear distinction in pregnancy duration between first and subsequent pregnancies.
+
+=> First pregnancies tend to last longer (notably between 41-43 weeks), whereas subsequent pregnancies tend to conclude earlier (especially at 38 weeks).
+
