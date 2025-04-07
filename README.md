@@ -44,6 +44,7 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
 ## Analysis
 
 **I.Input Data :**
+
 ![NSFG Pregnancy Data](https://github.com/mydg13/mydg_project/blob/main/image/image1.png?raw=true)
 
 
