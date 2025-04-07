@@ -50,8 +50,10 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
 
 
 **II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children :**
+
 **Descriptive Statistics**
-1. PMF
+
+**1. PMF**
 
 ![Pregnancy Analysis Chart](https://github.com/mydg13/mydg_project/blob/main/image/image2.png?raw=true)
 
@@ -65,7 +67,7 @@ There are multiple sharp peaks and dips, along with some noticeable differences 
 
 → Use the CDF for better insight.
 
-2.CDF
+**2. CDF**
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image3.png?raw=true)
 
@@ -73,9 +75,13 @@ Since the line for firstborn children is to the left of the line for later-born 
 
 The noticeable gap in the middle suggests that the difference is more pronounced above the mean value.
 
-3. Statistical measures
-
+**3. Statistical measures**
 The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true)
+
+**4. Cohen's Effect Size**
+Firstborn children are lighter than later-born children, but the difference is small.
+
+![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true)
 
