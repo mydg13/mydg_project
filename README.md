@@ -94,3 +94,28 @@ Firstborn children are lighter than later-born children, but the difference is s
 It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true)
+
+**2. Regression**
+
+It has been observed that first-born children tend to weigh less than their later-born siblings, and this effect is statistically significant. However, this result is somewhat surprising, as there is no obvious biological mechanism that would necessarily cause first-borns to be lighter. This raises the question of whether the observed relationship might be spurious.
+
+Input:
+
+      + Independent variable: isfirst (a dummy variable indicating whether the child is first-born)
+
+      + Dependent variable (target for prediction): totalwgt_lb (birth weight in pounds)
+
+      + This model compares the average birth weight of first-born children with that of non-first-born children.
+
+Findings:
+
+      + Coefficient of isfirst[T.True] (-0.1248): First-born children (isfirst=True) weigh on average 0.1248 pounds less than non-first-born children.
+
+      + R-squared (0.002): The model explains about 0.2% of the variation in birth weight based on whether the child is first-born.→ Being first-born is just one of many factors that influence birth weight; many other important variables are not captured in this model.
+
+      + P-value for isfirst[T.True] (0.000):The result is highly statistically significant, suggesting that the difference in weight between first-born and non-first-born children is unlikely to be due to random chance and may be driven by an underlying factor.
+
+Conclusion:
+      + There is a measurable difference in birth weight between first-born and later-born children (first-borns tend to weigh less). However, the variable isfirst accounts for only a very small portion of the variation in birth weight. This implies that while the effect exists, its practical impact is minimal, and many other factors contribute to birth weight that are not included in the model.
+
+![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image7.png?raw=true)
