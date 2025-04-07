@@ -49,9 +49,22 @@ II. Comparison of Pregnancy Duration Between First and Subsequent Births
 
 
 
-**I.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children :**
+**II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children :**
+1. Descriptive Statistics
 
-In Cookie Cats, players face gates that make them wait before progressing or making an in-app purchase. We analyzed an A/B test where the first gate was moved from level 30 to level 40, focusing on player retention and game rounds.
+1.1 PMF
+
+These distributions all resemble a "bell shape," with many values clustering around the mean and fewer extreme values.
+
+There are multiple sharp peaks and dips, along with some noticeable differences between the distributions.
+
+➡️ It’s hard to determine which of these features are meaningful.
+
+➡️ It’s also difficult to discern overall characteristics; for example, which distribution do you think has the higher mean?
+
+➡️ Use the CDF for better insight.
+
+
 
 **Key Findings:**
 
