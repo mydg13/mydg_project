@@ -25,7 +25,6 @@ The dataset contains several columns that provide detailed information about eac
 | `finalwgt`      | Final weight variable used for survey weighting                                  | Float      | 0.75, 1.2           |
 | `prglngth`      | Length of the pregnancy in weeks                                                 | Integer    | 40, 37, 42          |
 | `numdep`        | Number of dependent children the mother has at the time of the survey           | Integer    | 1, 3                |
-|-----------------|---------------------------------------------------------------------------------|------------|---------------------|
 
 
 ## A/B Testing Evaluate
