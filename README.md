@@ -87,3 +87,10 @@ Firstborn children are lighter than later-born children, but the difference is s
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true)
 
+**Inference Statistic**
+
+**1. Hypothesis Testing**
+
+It can be observed that the average birth weight of the newborns is slightly lower. Now, we will examine whether this effect is statistically significant.
+
+![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image6.png?raw=true)
