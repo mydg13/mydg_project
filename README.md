@@ -130,6 +130,7 @@ Conclusion:
 ### II.Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
 
 The probability mass function (PMF) of firstborn children (blue) tends to be more right-skewed compared to the PMF of later-born children (red).
+
 <p align="center">
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image8.png?raw=true" alt="Chart 1" width="45%" />
   <img src="https://github.com/mydg13/BirthData_Project/blob/main/image/image9.png?raw=true" alt="Chart 2" width="45%" />
