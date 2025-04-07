@@ -28,12 +28,15 @@ Here is a brief description of each column:
 | `numdep`        | Number of dependent children the mother has at the time of the survey           | Integer    | 1, 3                |
 
 
-## A/B Testing Evaluate
-Metric Game_rounds : Mann-Whitney
+## Outline Analysis 
 
-Metric %Retention_1 : Chi-Square
+I. Comparison of the Birth Weight of Firstborn and Non-Firstborn Children
+   1. Descriptive Statistics : PMF / CDF, Statistical measures, Cohen's Effect Size
+   2. Inference Statistic : Hypothesis Testing, Regression, Confidence Interval
 
-Metric %Retention_7 : Chi-Square
+II. Comparison of Pregnancy Duration Between First and Subsequent Births   
+    Using PMF
+
 
 ## Conclusion
 **Business Problem Recap:**
