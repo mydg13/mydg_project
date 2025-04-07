@@ -76,11 +76,13 @@ Since the line for firstborn children is to the left of the line for later-born 
 The noticeable gap in the middle suggests that the difference is more pronounced above the mean value.
 
 **3. Statistical measures**
+
 The mean and median birth weights of firstborn children are lower compared to those of later-born children.
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image4.png?raw=true)
 
 **4. Cohen's Effect Size**
+
 Firstborn children are lighter than later-born children, but the difference is small.
 
 ![Description of image](https://github.com/mydg13/BirthData_Project/blob/main/image/image5.png?raw=true)
