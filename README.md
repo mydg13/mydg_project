@@ -11,7 +11,8 @@ Each row represents one pregnancy and includes details like the mother's age, bi
 
 ##  Description of Columns
 
-The dataset contains several columns that provide detailed information about each pregnancy and the corresponding birth outcome. Here is a brief description of each column:
+The dataset contains several columns that provide detailed information about each pregnancy and the corresponding birth outcome. 
+Here is a brief description of each column:
 
 | **Column**      | **Description**                                                                 | **Type**   | **Example**         |
 |-----------------|---------------------------------------------------------------------------------|------------|---------------------|
