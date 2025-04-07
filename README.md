@@ -1,6 +1,4 @@
-# Project Description
-
-## Summary
+## Project Description
 
 This project uses data from the 2002 National Survey of Family Growth (NSFG) to study pregnancy and childbirth. The dataset includes only pregnancies that ended in live births and is split into two groups:
 
@@ -12,8 +10,6 @@ Each row represents one pregnancy and includes details like the mother's age, bi
 
 
 ##  Description of Columns
-
-## 📊
 
 The dataset contains several columns that provide detailed information about each pregnancy and the corresponding birth outcome. Here is a brief description of each column:
 
@@ -29,6 +25,7 @@ The dataset contains several columns that provide detailed information about eac
 | `finalwgt`      | Final weight variable used for survey weighting                                  | Float      | 0.75, 1.2           |
 | `prglngth`      | Length of the pregnancy in weeks                                                 | Integer    | 40, 37, 42          |
 | `numdep`        | Number of dependent children the mother has at the time of the survey           | Integer    | 1, 3                |
+|-----------------|---------------------------------------------------------------------------------|------------|---------------------|
 
 
 ## A/B Testing Evaluate
